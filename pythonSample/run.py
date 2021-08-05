@@ -1,8 +1,13 @@
+from shapes import *
+
+print(area.add(5,6))
 
 
-from method.mod import foo
 
-def foo():
-    print('foo() from main')
 
-foo()
+
+
+
+
+
+

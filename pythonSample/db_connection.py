@@ -22,9 +22,9 @@ print(flag)
 # cur.executemany(
 #     'INSERT INTO USER_INFO VALUES (?,?,?)',
 #     [
-#         (1, '양창덕', 'ycd633@nineonesoft.com'),
-#         (2, '김해솔', 'ycd633@nineonesoft.com'),
-#         (3, '김다솜', 'ycd633@nineonesoft.com'),
+#         (1, '123', '123@33.com'),
+#         (2, '123', '123@33.com'),
+#         (3, '222', '222@33.com'),
 #     ]
 # )
 #

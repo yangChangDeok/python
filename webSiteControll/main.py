@@ -1,30 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 from openpyxl import Workbook
-wb = Workbook(write_only=True)
-
-ws = wb.create_sheet('TV Ratings')
-ws.append()
-
-res = requests.get("https://workey.codeit.kr/ratings/index")
-rating_page = res.text
-
-# HTML 정리
-soup = BeautifulSoup(rating_page, 'html.parser')
-
-# 특정 태그 가져오기
-program_title_tags = soup.select('td.program')
-
-
-#print(soup.select('td')[:4])
-
-#print(soup.select('td'))
-
-tr_tag = soup.select('tr')[1]
-td_tags = tr_tag.select('*')
-
-for tag in td_tags:
-    ws.append()
 
 
 # program_title_list = []

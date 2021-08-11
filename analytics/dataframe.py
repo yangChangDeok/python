@@ -11,7 +11,7 @@ array_list = {
 }
 
 
-frame = pd.DataFrame(array_list, columns = ['name', 'birthday', 'occupation'])
+frame = pd.DataFrame(array_list, columns=['name', 'birthday', 'occupation'])
 
 print(frame)
 

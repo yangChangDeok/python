@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
+# https://github.com/pandas-dev/pandas
+# https://matplotlib.org/
 
 # 디스플레이 옵션 설정
 pd.set_option('display.width', 320)
